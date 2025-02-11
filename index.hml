@@ -12,9 +12,9 @@
     <header>
       <nav id="navbar">
         <ul>
-          <li><a href="#welcome-section">acerca de</a><li>
-          <li><a href="#projects">trabajo</a><li>
-          <li><a href="#container3">contacto</a><li>
+          <li><a href="#welcome-section">acerca de</a></li>
+          <li><a href="#projects">trabajo</a></li>
+          <li><a href="#container3">contacto</a></li>
         </ul>
       </nav>
     </header>
