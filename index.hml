@@ -1,0 +1,115 @@
+<!DOCTYPE htlm>
+<html lang="en">
+  <head>
+    <meta charset= "utf-8"></meta>
+    <meta name="viewport" content="width= device-width, initial-scale=1.0"></meta>
+    <meta name="description" content="portafolio de RamónTrrl"></meta>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#welcome-section">acerca de</a><li>
+          <li><a href="#projects">trabajo</a><li>
+          <li><a href="#container3">contacto</a><li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="presentation" 
+    id="welcome-section">
+    <div class="content">
+      <h1>hola, soy RamónTrrl</h1>
+      <p>Un humilde obrero digital</p>
+    </div>
+    </section>
+    
+
+    <section 
+    id="projects">
+      <div class="project-tile">
+        
+        <h2>"eme aquí"</h2>
+        <p>algunos de mis pecados en código</p>
+   
+      <div class="divider"></div>
+
+      <div class="square-container">
+
+          <a href="https://github.com/RamonTrrl/pagina-homenaje/" target="_blank">Sr.Desconocido!!
+            <div class="square">
+              <img src="https://raw.githubusercontent.com/RamonTrrl/pagina-homenaje/main/foto%20papi%20churro%20vectorizada.jpeg" alt="foto papi churro">
+            </div>
+          </a>
+                  
+          <a href="https://github.com/RamonTrrl/pagina-Desapuntes/">DesaPuntes
+            <div class="square custom-size">
+              <img src="https://raw.githubusercontent.com/RamonTrrl/pagina-Desapuntes/main/desapuntes.png" alt="foto desapuntes">
+            </div>
+          </a>
+
+
+          <a href="#"><...?/>
+            <div class="square">              
+            </div>
+          </a>
+
+
+         <a href="#">JifiNet
+           <div class="square custom-size4">
+             <img src="https://raw.githubusercontent.com/RamonTrrl/pagina-landing/main/icoWordpres-removebg-preview%20(2).png" alt="J F icono jifinet">          
+           </div>
+         </a>
+
+         <a href="#">FlipCards
+           <div class="square custom-size5">
+             <img src="https://raw.githubusercontent.com/RamonTrrl/cards-flip/main/gracias/img/hnos_tv.png" alt="fotos-hnos">
+           </div>
+          </a>
+
+          <a href="#">Error-404
+            <div class="square custom-size6">             
+             <img src="https://raw.githubusercontent.com/RamonTrrl/ups-404/main/ups_alt_404-removebg-preview.png" alt="error-404">
+           </div>
+          </a>" 
+
+
+
+          <div>      
+          <a class=" anchor-link" href="https://github.com/RamonTrrl" target="_blank">
+          <div class="anchor-rect">Más información</div>
+          </a>        
+          </div>
+
+      </div>
+    </section>
+
+    <section id="container3">     
+      <div class="container">
+        <h1>Contáctame</h1>
+        <p>Pero antes hecha una mirada a nuestras redes</p>
+        <div class="boxes">
+           <a id="profile-link" href="https://www.instagram.com/cronicasdeilusos/" target="_blank"><div class="box">instagram</div></a>
+            <a id="profile-link" href="https://jifinetcom.wordpress.com/" target="_blank"><div class="box">JifiNet</div></a>
+            <a id="profile-link" href="https://cronicasdeilusos.blogspot.com/" target="_blank"><div class="box">blog</div></a>  
+        
+      <div class="divider"></div>
+
+      <footer>      
+        <div>
+          <p>&copy;2025 derechos e izquierdos están reservados hasta el más allá</p>
+          
+          
+        </div>
+        
+
+      </footer>
+      
+
+    </section>
+    
+  </body>
+</html>
