@@ -213,7 +213,7 @@
 
 
 /*estilos para el cuadrado 4 landing-page*/
-custom-size4 {
+.custom-size4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,7 +227,7 @@ custom-size4 {
   border-radius: 10px; /* Bordes redondeados */
 }
 /*estilos para el cuadrado 5 hnos-tv*/
-custom-size5 {
+.custom-size5 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,7 +242,7 @@ custom-size5 {
 }
 
 /*estilos para el cuadrado 6 error-404*/
-custom-size6 {
+.custom-size6 {
   display: flex;
   justify-content: center;
   align-items: center;
