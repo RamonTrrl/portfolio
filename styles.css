@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif;
+  }
+  nav {
+    background-color: #990100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+  }
+ @media(max-with: 768px) {
+   height: 4rem;
+  }
+  #navbar li {
+  margin-right: 10px;
+  list-style: none;
+  display: inline-block; 
+  font-size: 20px;
+  //color: #3c3c3c;
+  padding:10px 15px;
+  border-radius: 5px;
+  
+}
+
+#navbar li:hover{
+  background-color: #d0d0d0;
+}  
+
+  #welcome-section {
+  border: 1px solid #ccc;
+  background-color: #e7a17a;
+  width: 100%;
+  margin-top: 5rem;
+  min-height: calc(100vh - 5rem);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.content h1 {
+  font-size: 40px;
+  padding: 15px;
+}
+#welcome-section .content {
+  min-height: 100%;
+  max-width: 800px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+ p {
+  color: #585555;
+  font-size: 20px;
+}
+
+/* Contenedor de cuadrados */
+.square-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Estilos para los cuadrados */
+.square {
+  margin: 20px;
+  width: 380px;
+  height: 380px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Evita que la imagen se salga del cuadrado */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para la imagen dentro del cuadrado */
+.square img {
+  width: 100%; /* Ocupa todo el ancho del cuadrado */
+  height: 100%; /* Ocupa todo el alto del cuadrado */
+  object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+  .square-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .square {
+    width: 100%; /* Ocupa todo el ancho en dispositivos pequeños */
+    margin: 15px 0; /* Ajusta el margen */
+  }
+}
+
+.square {
+  position: relative;
+  overflow: hidden;
+}
+
+.square::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Capa oscura */
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.square:hover::before {
+  opacity: 1; /* Muestra la capa oscura */
+}
+
+
+/* Estilos específicos para el segundo cuadrado */
+.custom-size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Fondo del cuadrado */
+}
+
+.custom-size img {
+  max-width: 90%; /* Ancho máximo de la imagen (90% del cuadrado) */
+  max-height: 90%; /* Alto máximo de la imagen (90% del cuadrado) */
+  object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos específicos para el tercer cuadrado */
+.square-container a:nth-child(3) .square {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradación azul */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Estilos para la lupa (ícono) */
+.square-container a:nth-child(3) .square {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradación azul */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.square-container a:nth-child(3) .square::before {
+  content: "🔍"; /* Símbolo Unicode de lupa */
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 50%; /* Centrar verticalmente */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translate(-50%, -50%); /* Ajustar el centro exacto */
+  transition: all 0.3s ease;
+  z-index: 2;
+  opacity: 1; /* Asegurar que el símbolo sea visible */
+}
+
+.square-container a:nth-child(3) .square::after {
+  content: "Ver detalles"; /* Texto que aparecerá */
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: white;
+  background: rgba(0, 0, 0, 0.7); /* Fondo oscuro para el cintillo */
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: -50px; /* Inicialmente fuera de la vista */
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.square-container a:nth-child(3) .square:hover::before {
+  opacity: 0; /* Desvanecer el símbolo al hacer hover */
+}
+
+.square-container a:nth-child(3) .square:hover::after {
+  bottom: 0; /* Muestra el cintillo */
+}
+
+
+/*estilos para el cuadrado 4 landing-page*/
+custom-size4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Fondo del cuadrado */
+}
+
+.custom-size4 img {
+  max-width: 90%; /* Ancho máximo de la imagen (90% del cuadrado) */
+  max-height: 90%; /* Alto máximo de la imagen (90% del cuadrado) */
+  object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+  border-radius: 10px; /* Bordes redondeados */
+}
+/*estilos para el cuadrado 5 hnos-tv*/
+custom-size5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Fondo del cuadrado */
+}
+
+.custom-size5 img {
+  max-width: 90%; /* Ancho máximo de la imagen (90% del cuadrado) */
+  max-height: 90%; /* Alto máximo de la imagen (90% del cuadrado) */
+  object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/*estilos para el cuadrado 6 error-404*/
+custom-size6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Fondo del cuadrado */
+}
+
+.custom-size6 img {
+  max-width: 90%; /* Ancho máximo de la imagen (90% del cuadrado) */
+  max-height: 90%; /* Alto máximo de la imagen (90% del cuadrado) */
+  object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+
+
+
+
+   #projects {
+    border: 1px solid #ccc;
+    background-color: #bec3bc;
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  #projects .project-tile {
+    position: relative;
+    text-align: center;
+    flex-direction: Column;
+    display: flex;
+    justify-content: center;
+   
+  }
+  #projects h2 {
+    margin-top: 80px;
+  }
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Centra la línea y limita el ancho */
+  height: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  margin: 15px auto; /* Centra horizontalmente la línea */
+}
+  
+  
+  .anchor-link {
+    display:block;
+    text-decoration: none;
+   
+
+  }
+  .anchor-rect {
+    display:inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #f0f0f0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0.3);
+  }
+
+ #container3 {
+  border: 1px solid #ccc;
+  background-color: #f1a385;
+  width: 100%;
+  min-height: 100vh; /* Cambiar height a min-height para evitar problemas de contenido */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column; /* Asegurar que los elementos se apilen verticalmente */
+}
+
+.container {
+  text-align: center;
+  width: 100%; /* Asegurar que el contenedor ocupe todo el ancho */
+}
+
+h1, p {
+  margin: 10px 0; /* Ajustar márgenes para mejor espaciado */
+}
+
+.divider {
+  width: 80%; /* Centra la línea y limita el ancho */
+  height: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  margin: 20px auto; /* Centra horizontalmente la línea */
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permitir que las cajas se envuelvan si no caben en una línea */
+  margin-top: 20px;
+}
+
+.box {
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px; /* Reducir el margen para mejor espaciado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: 40px; /* Añadir margen superior para separar del contenido anterior */
+}
+
+footer p {
+  margin: 0; /* Eliminar márgenes por defecto del párrafo */
+}
