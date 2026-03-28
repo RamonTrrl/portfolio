@@ -4,7 +4,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://pages.github.com/)
 
-> Portafolio personal creado como proyecto de mi certificación en **Free Code Camp**. Un espacio digital donde muestro mi perfil profesional en el aspecto digital, y en el cual están alojados algunos de mis proyectos destacados.
+> Portafolio personal creado como proyecto de mi certificación en **Free Code Camp**. Un espacio digital donde muestro mi perfil profesional en el aspecto digital, y en el cual están alojados algunos de mis proyectos binarios destacados.
 
 🔗 **Ver sitio en vivo:** [ramontrrl.github.io/portfolio](https://ramontrrl.github.io/portfolio/)
 
@@ -15,7 +15,7 @@
 
 ## 📋 Descripción
 
-Este portafolio es mi +++carta de presentación+++ en el mundo digital. refleja mi identidad como **"obrero digital"** —aquel obrero persintente, tenaz y autodidacta que le apasiona la tecnología y que trata de escacear un poco de código.
+Este portafolio es mi ***carta de presentación*** en el mundo digital. refleja mi identidad como **"obrero digital"** aquel obrero persintente, tenaz y autodidacta que le apasiona la tecnología y que trata de escacear un poco de código.
 
 Incluye secciones sobre:
 - **Acerca de mí**: mi enfoque y filosofía de trabajo.
