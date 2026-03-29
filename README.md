@@ -15,7 +15,7 @@
 
 ## 📋 Descripción
 
-Este portafolio es mi ***carta de presentación*** en el mundo digital. refleja mi identidad como **"obrero digital"** aquel obrero persintente, tenaz y autodidacta que le apasiona la tecnología y que trata de escacear un poco de código.
+Este portafolio es mi ***carta de presentación*** en el mundo digital. refleja mi identidad como **"obrero digital"** aquel obrero persintente, tenaz y autodidacta que le apasiona la tecnología y que trata de escacear un poco sobre código binario </>🤓📜.
 
 Incluye secciones sobre:
 - **Acerca de mí**: mi enfoque y filosofía de trabajo.
