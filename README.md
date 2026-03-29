@@ -15,7 +15,7 @@
 
 ## 📋 Descripción
 
-Este portafolio es mi ***carta de presentación*** en el mundo digital. refleja mi identidad como **"obrero digital"** aquel obrero persintente, tenaz y autodidacta que le apasiona la tecnología y que trata de escacear un poco sobre código binario </>🤓📜.
+Este portafolio es mi ***carta de presentación*** en el mundo digital, bueno, eso dice la web como una "definición", tal vez si, tal vez no, pero lo cierto es que sólo soy ***" un obrero digital"*** aquel obrero persintente, tenaz y autodidacta que le apasiona la tecnología y que trata de escacear un poco sobre código binario </>🤓📜.
 
 Incluye secciones sobre:
 - **Acerca de mí**: mi enfoque y filosofía de trabajo.
@@ -43,11 +43,11 @@ Incluye secciones sobre:
 
 ## 🎓 Formación y certificaciones
 
-Soy un firme creyente en el aprendizaje continuo. Aquí puedes ver algunos de los certificados que he obtenido en diversas áreas tecnológicas y digitales:
+***eme aquí*** mis "papelitos sellados, refrendados y apostilladso" que dan fe que lo que digo y afirmo de ser un ***cuasi nerd geek***  es la purita verdad y que 'de verdacito no miento'🤓:
 
 📁 **[Repositorio de Certificados Digitales →](https://github.com/RamonTrrl/Certificados-digitales)**
 
-Entre los temas destacados se encuentran:
+Entre los temas destacados (según cierto LLM) se encuentran:
 
 - ☁️ **Cloud Computing**: AWS (Getting Started, EC2 Observability)
 - 🛡️ **Ciberseguridad**: Ethical Hacking, Hacking Ético
@@ -55,5 +55,5 @@ Entre los temas destacados se encuentran:
 - 📊 **Marketing y Creatividad**: Marketing Digital, Photoshop
 - 📈 **Análisis de Datos**: SPSS Bioestadístico
 
-*Estos certificados respaldan mi pasión por mantenerse actualizado en un mundo digital en constante evolución.*
+
 
