@@ -43,7 +43,7 @@ Incluye secciones sobre:
 
 ## 🎓 Formación y certificaciones
 
-***eme aquí*** mis "papelitos sellados, refrendados y apostilladso" que dan fe que lo que digo y afirmo de ser un ***cuasi nerd geek***  es la purita verdad y que 'de verdacito no miento'🤓:
+***eme aquí*** mis "papelitos sellados, refrendados y apostillados" que dan fe que lo que digo y afirmo de ser un ***cuasi nerd geek***  es la purita verdad y que 'de verdacito no miento'🤓:
 
 📁 **[Repositorio de Certificados Digitales →](https://github.com/RamonTrrl/Certificados-digitales)**
 
