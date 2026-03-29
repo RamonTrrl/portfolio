@@ -41,3 +41,19 @@ Incluye secciones sobre:
 - [estilos_css](https://github.com/RamonTrrl/portfolio/blob/main/styles.css) - Estilos visuales 
 - [portafolio_imagen](https://github.com/RamonTrrl/portfolio/blob/main/Portafolio.png) - Imágen ilustrativa
 
+## 🎓 Formación y certificaciones
+
+Soy un firme creyente en el aprendizaje continuo. Aquí puedes ver algunos de los certificados que he obtenido en diversas áreas tecnológicas y digitales:
+
+📁 **[Repositorio de Certificados Digitales →](https://github.com/RamonTrrl/Certificados-digitales)**
+
+Entre los temas destacados se encuentran:
+
+- ☁️ **Cloud Computing**: AWS (Getting Started, EC2 Observability)
+- 🛡️ **Ciberseguridad**: Ethical Hacking, Hacking Ético
+- 💻 **Desarrollo**: Java, Diseño Web Responsivo
+- 📊 **Marketing y Creatividad**: Marketing Digital, Photoshop
+- 📈 **Análisis de Datos**: SPSS Bioestadístico
+
+*Estos certificados respaldan mi pasión por mantenerse actualizado en un mundo digital en constante evolución.*
+
