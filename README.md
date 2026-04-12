@@ -4,7 +4,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://pages.github.com/)
 
-> Portafolio personal creado como proyecto de mi certificación en **Free Code Camp**. Un espacio digital donde muestro mi perfil profesional en el aspecto digital, y en el cual están alojados algunos de mis proyectos binarios destacados.
+> Este portafolio personal fue creado como proyecto de mi certificación en **Free Code Camp**. Un espacio digital donde muestro mi perfil profesional en el aspecto digital, y en el cual están alojados algunos de mis proyectos binarios destacados.
 
 🔗 **Ver sitio en vivo:** [ramontrrl.github.io/portfolio](https://ramontrrl.github.io/portfolio/)
 
@@ -15,10 +15,10 @@
 
 ## 📋 Descripción
 
-Este portafolio es mi ***carta de presentación*** en el mundo digital, bueno, eso dice la web como una "definición", tal vez si, tal vez no, pero lo cierto es que sólo soy ***" un obrero digital"*** aquel obrero persintente, tenaz y autodidacta que le apasiona la tecnología y que trata de escacear un poco sobre código binario </>🤓📜.
+Este portafolio es mi ***carta de presentación*** en el mundo digital, bueno, a quién engaño, solo es la definición que hace la web acerca de lo que debería ser un hecho y derecho "*porfolio*". Tal vez sea asi, tal vez no, pero lo cierto es que sólo soy ***" un obrero digital"*** aquel obrero persintente, tenaz y autodidacta que le apasiona la tecnología y que trata de escacear un poco sobre código binario </>🤓📜.
 
 Incluye secciones sobre:
-- **Acerca de mí**: mi enfoque y filosofía de trabajo.
+- **Acerca de mí**: mi enfoque y una forma de filosofar "al paso".
 - **Trabajo / Proyectos**: una galería con algunos de mis desarrollos.
 - **Contacto**: vías para conectar conmigo.
 
@@ -33,7 +33,7 @@ Incluye secciones sobre:
 - Diseño responsive (se adapta a móviles, tablets y escritorio).
 - Navegación fluida entre secciones.
 - Presentación visual de proyectos con tarjetas (Cards).
-- Iconos y enlaces a redes sociales y blog.
+- Iconos y enlaces a redes sociales y a mi blog que nadie lee y a nadie le importa.
 
 ## 📂 Estructura del proyecto
 
@@ -47,7 +47,7 @@ Incluye secciones sobre:
 
 📁 **[Repositorio de Certificados Digitales →](https://github.com/RamonTrrl/Certificados-digitales)**
 
-Entre los temas destacados (según cierto LLM) se encuentran:
+Entre los temas destacados (claro, según cierto LLM made in China) se encuentran:
 
 - ☁️ **Cloud Computing**: AWS (Getting Started, EC2 Observability)
 - 🛡️ **Ciberseguridad**: Ethical Hacking, Hacking Ético
