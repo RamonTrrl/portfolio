@@ -18,9 +18,9 @@
 Este portafolio es mi ***carta de presentación*** en el mundo digital, bueno, a quién engaño, solo es la definición que hace la web acerca de lo que debería ser un hecho y derecho "*porfolio*". Tal vez sea asi, tal vez no, pero lo cierto es que sólo soy ***" un obrero digital"*** aquel obrero persintente, tenaz y autodidacta que le apasiona la tecnología y que trata de escacear un poco sobre código binario </>🤓📜.
 
 Incluye secciones sobre:
-- **Acerca de mí**: mi enfoque y una forma de filosofar "al paso".
-- **Trabajo / Proyectos**: una galería con algunos de mis desarrollos.
-- **Contacto**: vías para conectar conmigo.
+- **Acerca de mí**: mi enfoque y una forma de filosofar "al paso" sobre todo y sobre nada 💎.
+- **Trabajo / Proyectos**: una galería con algunos de mis desarrollos ... vamos, solo unos escarceos, y eso </>!!.
+- **Contacto**: vías para conectar conmigo, claro solo de manera figurativa 😍.
 
 ## 🛠️ Tecnologías utilizadas
 
