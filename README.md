@@ -19,7 +19,7 @@ Este portafolio es mi ***carta de presentación*** en el mundo digital, bueno, a
 
 Incluye secciones sobre:
 - **Acerca de mí**: mi enfoque y una forma de filosofar "al paso" sobre todo y sobre nada 💎.
-- **Trabajo / Proyectos**: una galería con algunos de mis desarrollos ... vamos, solo unos escarceos, y eso </>!!.
+- **Proyectos**: una galería con algunos de mis desarrollos ... vamos, solo unos escarceos, y eso </>!!.
 - **Contacto**: vías para conectar conmigo, claro solo de manera figurativa 😍.
 
 ## 🛠️ Tecnologías utilizadas
