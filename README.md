@@ -33,7 +33,7 @@ Incluye secciones sobre:
 - Diseño responsive (se adapta a móviles, tablets y escritorio).
 - Navegación fluida entre secciones.
 - Presentación visual de proyectos con tarjetas (Cards).
-- Iconos y enlaces a redes sociales y a mi blog que nadie lee y a nadie le importa.
+- Iconos y enlaces a redes sociales y por supesto, a mi sitio preferido, mi blog que nadie lee y a nadie le importa.
 
 ## 📂 Estructura del proyecto
 
